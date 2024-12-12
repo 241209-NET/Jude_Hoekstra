@@ -1,0 +1,15 @@
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/bin/Debug/net9.0/Project0
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/bin/Debug/net9.0/Project0.deps.json
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/bin/Debug/net9.0/Project0.runtimeconfig.json
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/bin/Debug/net9.0/Project0.dll
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/bin/Debug/net9.0/Project0.pdb
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.AssemblyInfoInputs.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.AssemblyInfo.cs
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.csproj.CoreCompileInputs.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.sourcelink.json
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.dll
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/refint/Project0.dll
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.pdb
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/Project0.genruntimeconfig.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project0/obj/Debug/net9.0/ref/Project0.dll
