@@ -30,7 +30,8 @@ This is a Full Stack Web App made in .NET as a demo of a text adventure game
 - User should be able to fight enemy in room
 
 ## Tables
-TBA
+![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/6a21e140-a37d-4fe8-948f-a0fd9d5da8f5)
+
 
 ## MVP Goals
 - Ability to traverse across multiple rooms
