@@ -6,20 +6,19 @@ This is a Full Stack Web App made in .NET as a demo of a text adventure game
 - Jude Hoekstra
 
 ## Project Requirements
-- Application must build and run.
-- Unit Testing (70% code coverage for Services and Models layer)
-- Utilize an external API
-- Backend hosted on Azure Cloud Service
+- The application should be ASP.NET Core application
+- The application should build and run
+- The application should have unit tests and at least 20% coverage (at least 5 unit tests that tests 5 different methods/functionality of your code)
+- The application should communicate via HTTP(s) (Must have POST, GET, DELETE)
+- The application should be RESTful API
+- The application should persist data to a SQL Server DB
+- The application should communicate to DB via EF Core (Entity Framework Core)
 
 ## Tech Stack
 
-- React/JS (Front End)
 - C# (Back End Programming Language)
 - SQL Server (Azure Hosted)
-- EF Core (ORM Tech)
-- ASP.NET (Web API Framework)
 - HTML, CSS
-    - Bootstrap? Tailwind? 
 
 ## User Stories
 - User should be able to login/logout if they already have an account
