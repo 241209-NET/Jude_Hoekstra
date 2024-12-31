@@ -15,17 +15,37 @@ public class PlayerController : ControllerBase
         _playerService = playerService;
     }
     
+    // lists all players, probably want to change this later
     [HttpGet]
     public IActionResult GetAllPlayers()
     {
         return Ok(_playerService.GetAllPlayers());
     }
-
-    [HttpPost("equip/{name}")]
-    public IActionResult equipItembyId(int id)
+    
+    
+    // this should list all items (not enemies) in the player's current room
+    [HttpGet(template:"roomitems/")]
+    public IActionResult LookAtItems()
     {
-        var item = _playerService.equipItemById(id);
+        return Ok(_playerService.LookAtItems());
+    }
+    
+    //puts item in inventory
+    [HttpPost("pickup/{id}")]
+    public IActionResult PickupItemByID(int id)
+    {
+        var item = _playerService.PickupItemById(id);
+        return Ok(item);
+    }
+    
+    
+    // equips item
+    [HttpPost("equip/{id}")]
+    public IActionResult EquipItembyId(int id)
+    {
+        var item = _playerService.EquipItemById(id);
         // puts item in inventory
         return Ok(item);
     }
+    
 }

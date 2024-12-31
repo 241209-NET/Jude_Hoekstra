@@ -16,11 +16,11 @@ builder.Services.AddSwaggerGen();
 
 //Dependency Inject the proper services
 builder.Services.AddScoped<IPlayerService, PlayerService>();
-builder.Services.AddScoped<IRoomService, RoomService>();
+
 
 //Dependency Inject the proper repositories
 builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
-builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+
 
 //Add automapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));

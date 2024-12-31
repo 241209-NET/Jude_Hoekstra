@@ -21,9 +21,21 @@ public class PlayerService : IPlayerService
         return _playerRepository.GetAllPlayers();
     }
 
-    public Item? equipItemById(int id){
+    public IEnumerable<Item> LookAtItems()
+    {
+        return _playerRepository.LookAtItems();
+    }
+
+    
+    public Item? PickupItemById(int id){
         if (id == null) return null;
-        return _playerRepository.equipItemById(id);
+        return _playerRepository.PickupItemById(id);
+
+    }
+    
+    public Item? EquipItemById(int id){
+        if (id == null) return null;
+        return _playerRepository.EquipItemById(id);
 
     }
 }

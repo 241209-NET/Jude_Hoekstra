@@ -12,9 +12,6 @@ public class MappingProfile : Profile {
         CreateMap<Enemy, EnemyInDTO>();
         CreateMap<Enemy, EnemyOutDTO>();
         
-        CreateMap<Room, RoomInDTO>();
-        CreateMap<Room, RoomOutDTO>();
-        
         CreateMap<Item, ItemInDTO>();
         CreateMap<Item, ItemOutDTO>();
         
