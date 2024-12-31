@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectONE._1_Model;
+using ProjectONE.API.Model;
 
 namespace ProjectONE.API.Data;
 

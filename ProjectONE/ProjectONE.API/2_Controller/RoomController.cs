@@ -16,17 +16,17 @@ public class RoomController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult getallRoom()
+    public IActionResult GetallRooms()
     {
-        var roomList = _roomService.getAllRoom();    
+        var roomList = _roomService.GetAllRooms();    
         return Ok(roomList);
     }
     
 
     [HttpPost("pickup/{name}")]
-    public IActionResult pickupItembyName(string name)
+    public IActionResult pickupItembyId(int id)
     {
-        var item = _roomService.pickupItemByName(name);
+        var item = _roomService.pickupItemById(id);
         // puts item in inventory
         return Ok(item);
     }

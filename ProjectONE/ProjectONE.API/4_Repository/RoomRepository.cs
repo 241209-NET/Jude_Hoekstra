@@ -6,38 +6,43 @@ namespace ProjectONE.API.Repository;
 
 public class RoomRepository : IRoomRepository
 {
-    private readonly RoomContext roomContext;
+    private readonly DataContext _dataContext;
 
-    public RoomRepository(RoomContext roomContext) => _roomContext = roomContext;
+    public RoomRepository(DataContext dataContext) => _dataContext = dataContext;
     
+    /*
     public async Task<Room> CreateNewRoom(Room newRoom)
     {
         //Insert into Room Values (newRoom)
-        await _roomContext.Rooms.AddAsync(newRoom);
-        await _roomContext.SaveChangesAsync();
+        await _dataContext.Rooms.AddAsync(newRoom);
+        await _dataContext.SaveChangesAsync();
         return newRoom;
     }
     
-    public IEnumerable<Room> getAllRoom()
+    */
+    
+    
+    public IEnumerable<Room> GetAllRooms()
     {
-        return _roomContext.Rooms!;
+        return _dataContext.Rooms!;
     }
     
     public Room? GetRoomById(int id)
     {
-        return _roomContext.Rooms.Find(id);
+        return _dataContext.Rooms.Find(id);
     }
 
-    public Item? GetItemByName(string name)
+    public Item? GetItemById(int id)
     {
-        return _itemContext.Items.FindByName(name);
+        return _dataContext.Items.Find(id);
     }
 
-    public Room? pickupItemByName(string name)
+    public Item? pickupItemById(int id)
     {
-        var newItem = GetItemByName(name);
-        _roomContext.Items.Remove(newItem);
-        _playerContext.Items.Add(newItem);
+        var newItem = GetItemById(id);
+        _dataContext.Items.Remove(newItem);
+        //put item in player inventory later
+       // _dataContext.Players.Items.Add(newItem);
         return newItem;
 
     }

@@ -22,9 +22,9 @@ public class PlayerController : ControllerBase
     }
 
     [HttpPost("equip/{name}")]
-    public IActionResult equipItembyName(string name)
+    public IActionResult equipItembyId(int id)
     {
-        var item = _playerService.equipItemByName(name);
+        var item = _playerService.equipItemById(id);
         // puts item in inventory
         return Ok(item);
     }

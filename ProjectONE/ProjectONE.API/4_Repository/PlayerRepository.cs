@@ -6,32 +6,40 @@ namespace ProjectONE.API.Repository;
 
 public class PlayerRepository : IPlayerRepository
 {
-    private readonly PlayerContext playerContext;
+    private readonly DataContext _dataContext;
 
-    public PlayerRepository(PlayerContext playerContext) => _playerContext = playerContext;
+    public PlayerRepository(DataContext dataContext) => _dataContext = dataContext;
     
-    
-    public IEnumerable<Room> getAllPlayersm()
+    public Player CreateNewPlayer(Player newPlayer)
     {
-        return _playerContext.Rooms!;
+        //Insert into Players Values (newPlayer)
+        _dataContext.Players.Add(newPlayer);
+        _dataContext.SaveChanges();
+        return newPlayer;
+    }
+    
+    public IEnumerable<Player> GetAllPlayers()
+    {
+        return _dataContext.Players!;
     }
     
     public Player? GetPlayerById(int id)
     {
-        return _playerContext.Player.Find(id);
+        return _dataContext.Players.Find(id);
     }
 
-    public Item? GetItemByName(string name)
+    public Item? GetItemById(int id)
     {
-        return _itemContext.Items.FindByName(name);
+        return _dataContext.Items.Find(id);
     }
 
-    public Room? equipItemByName(string name)
+    public Item? equipItemById(int id)
     {
-        var newItem = GetItemByName(name);
+        var newItem = GetItemById(id);
         // deletes equippedItem
-        _playerContext.Items.Remove(newItem);
-        _playerContext.EquippedItem.Add(newItem);
+        _dataContext.Items.Remove(newItem);
+        // actually change equipped item later
+       // _dataContext.EquippedItem.Update(newItem);
         return newItem;
 
     }

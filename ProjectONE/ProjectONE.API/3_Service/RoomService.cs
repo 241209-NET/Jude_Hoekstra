@@ -7,28 +7,30 @@ namespace ProjectONE.API.Service;
 
 public class RoomService : IRoomService
 {
-    private readonly IRoomService _roomService;
+    private readonly IRoomRepository _roomRepository;
     private readonly IMapper _mapper;
 
-    public RoomService(IRoomService roomRepository, IMapper mapper)
+    public RoomService(IRoomRepository roomRepository, IMapper mapper)
     {
         _roomRepository = roomRepository;
         _mapper = mapper;
     } 
 
+   /*
     public async Task<Room> CreateNewRoom(Room newRoom)
     {
         return await _roomRepository.CreateNewRoom(newRoom);
     }
 
+    */
     public IEnumerable<Room> GetAllRooms()
     {
         return _roomRepository.GetAllRooms();
     }
 
-    public Room? pickupItemByName(string name){
-        if (name == null) return null;
-        return _roomRepository.pickupItemByName(name);
+    public Item? pickupItemById(int id){
+        if (id == null) return null;
+        return _roomRepository.pickupItemById(id);
 
     }
 
