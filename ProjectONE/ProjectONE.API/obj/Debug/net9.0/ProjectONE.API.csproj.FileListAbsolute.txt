@@ -1,0 +1,8 @@
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.csproj.AssemblyReference.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.AssemblyInfoInputs.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.AssemblyInfo.cs
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.csproj.CoreCompileInputs.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/Debug/net9.0/ProjectONE.API.sourcelink.json
