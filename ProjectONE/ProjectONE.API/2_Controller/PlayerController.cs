@@ -16,9 +16,9 @@ public class PlayerController : ControllerBase
     }
     
     [HttpGet]
-    public IActionResult GetAllStats()
+    public IActionResult GetAllPlayers()
     {
-        return Ok(_playerService.GetAllStats());
+        return Ok(_playerService.GetAllPlayers());
     }
 
     [HttpPost("equip/{name}")]

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectONE._1_Model;
+using ProjectONE.API.Model;
 using ProjectONE.API.Data;
 
 namespace ProjectONE.API.Repository;
@@ -28,7 +28,7 @@ public class RoomRepository : IRoomRepository
         return _roomContext.Rooms.Find(id);
     }
 
-    public Item? GetItemByName(name)
+    public Item? GetItemByName(string name)
     {
         return _itemContext.Items.FindByName(name);
     }
@@ -41,6 +41,5 @@ public class RoomRepository : IRoomRepository
         return newItem;
 
     }
-    
-    //Start wiritng Repo CRUDs
+   
 }

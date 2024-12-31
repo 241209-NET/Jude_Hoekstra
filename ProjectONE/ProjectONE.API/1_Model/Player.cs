@@ -7,7 +7,7 @@ public class Player
     public string Password { get; set; }
     public string Email { get; set; }
 
-    public string EquippedWeapon { get; set; }
+    public Item EquippedItem { get; set; }
 
     public List<Item> Item { get; set; } = [];
     

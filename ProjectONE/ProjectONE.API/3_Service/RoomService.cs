@@ -21,9 +21,9 @@ public class RoomService : IRoomService
         return await _roomRepository.CreateNewRoom(newRoom);
     }
 
-    public Room? getAllRoom()
+    public IEnumerable<Room> GetAllRooms()
     {
-        return _roomRepository.getAllRoom();
+        return _roomRepository.GetAllRooms();
     }
 
     public Room? pickupItemByName(string name){
