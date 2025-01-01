@@ -2,8 +2,8 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/projectSettingsUpdater.xml
 /contentModel.xml
+/projectSettingsUpdater.xml
 /.idea.ProjectONE.iml
 /modules.xml
 # Editor-based HTTP Client requests

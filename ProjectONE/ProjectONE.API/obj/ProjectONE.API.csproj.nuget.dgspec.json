@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {}
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {}
   },
   "projects": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "projectName": "ProjectONE.API",
-        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "packagesPath": "/Users/judehoekstra/.nuget/packages/",
-        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/",
+        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/judehoekstra/.nuget/NuGet/NuGet.Config"

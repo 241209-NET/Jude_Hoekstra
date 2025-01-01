@@ -1,18 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/ProjectONE.TEST.csproj": {}
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/ProjectONE.TEST.csproj": {}
   },
   "projects": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "projectName": "ProjectONE.API",
-        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "packagesPath": "/Users/judehoekstra/.nuget/packages/",
-        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/",
+        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/judehoekstra/.nuget/NuGet/NuGet.Config"
         ],
@@ -37,8 +38,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -96,15 +96,16 @@
         }
       }
     },
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/ProjectONE.TEST.csproj": {
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/ProjectONE.TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/ProjectONE.TEST.csproj",
+        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/ProjectONE.TEST.csproj",
         "projectName": "ProjectONE.TEST",
-        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/ProjectONE.TEST.csproj",
+        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/ProjectONE.TEST.csproj",
         "packagesPath": "/Users/judehoekstra/.nuget/packages/",
-        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/obj/",
+        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/judehoekstra/.nuget/NuGet/NuGet.Config"
         ],
@@ -118,8 +119,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {
-                "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj"
+              "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {
+                "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj"
               }
             }
           }
@@ -133,8 +134,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {

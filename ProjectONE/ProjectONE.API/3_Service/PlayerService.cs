@@ -39,7 +39,6 @@ public class PlayerService : IPlayerService
     
     public Item? PickupItemById(int playerid, int id){
         if (id == null) return null;
-        //TODO: if playerid or item id doesn't exist return null
         return _playerRepository.PickupItemById(playerid, id);
 
     }

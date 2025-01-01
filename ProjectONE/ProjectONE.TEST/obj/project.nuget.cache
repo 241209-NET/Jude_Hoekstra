@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Z2APTUIqyo=",
+  "dgSpecHash": "uF4f/qFci/E=",
   "success": true,
-  "projectFilePath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST/ProjectONE.TEST.csproj",
+  "projectFilePath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.TEST/ProjectONE.TEST.csproj",
   "expectedPackageFiles": [
     "/Users/judehoekstra/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/judehoekstra/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
