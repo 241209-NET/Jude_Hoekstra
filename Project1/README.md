@@ -21,12 +21,10 @@ This is a Full Stack Web App made in .NET as a demo of a text adventure game
 - HTML, CSS
 
 ## User Stories
-- User should be able to login/logout if they already have an account
-- User should be able to register if they do not have an account
 - User should be able to view room that they are in
 - User should be able to pick up items in room
 - User should be able to equip items
-- User should be able to fight enemy in room
+- User should be able to fight enemies in room
 
 ## Tables
 ![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/6a21e140-a37d-4fe8-948f-a0fd9d5da8f5)
@@ -34,7 +32,7 @@ This is a Full Stack Web App made in .NET as a demo of a text adventure game
 
 ## MVP Goals
 - Ability to traverse across multiple rooms
-- Funcionality for non weapon/armor items
+- Functionality for non weapon/armor items
 - Enemy behavior (moving from rooms, attacking player first)
 
 ## Stretch Goals
