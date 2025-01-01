@@ -27,7 +27,7 @@ This is a Full Stack Web App made in .NET as a demo of a text adventure game
 - User should be able to fight enemies in room
 
 ## Tables
-![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/6a21e140-a37d-4fe8-948f-a0fd9d5da8f5)
+![Database ER diagram (crow's foot) (1)](https://github.com/user-attachments/assets/9986c4cd-7a82-4825-bce1-55f2614eaa4f)
 
 
 ## MVP Goals
