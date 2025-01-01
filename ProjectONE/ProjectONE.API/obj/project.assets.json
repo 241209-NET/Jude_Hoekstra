@@ -5254,7 +5254,6 @@
       "packagesPath": "/Users/judehoekstra/.nuget/packages/",
       "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/judehoekstra/.nuget/NuGet/NuGet.Config"
       ],
@@ -5279,7 +5278,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {

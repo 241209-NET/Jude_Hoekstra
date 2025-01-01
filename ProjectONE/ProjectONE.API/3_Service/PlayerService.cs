@@ -16,26 +16,41 @@ public class PlayerService : IPlayerService
         _playerRepository = playerRepository;
         _mapper = mapper;
     }
+
+    public String ResetEverything()
+    {
+        return _playerRepository.ResetEverything();
+    }
     public IEnumerable<Player> GetAllPlayers()
     {
         return _playerRepository.GetAllPlayers();
     }
 
-    public IEnumerable<Item> LookAtItems()
+    public String LookAtItems( int playerId)
     {
-        return _playerRepository.LookAtItems();
+        return _playerRepository.LookAtItems(playerId);
+    }
+
+    public String LookAtInventory(int playerId)
+    {
+        return _playerRepository.LookAtInventory(playerId);
     }
 
     
-    public Item? PickupItemById(int id){
+    public Item? PickupItemById(int playerid, int id){
         if (id == null) return null;
-        return _playerRepository.PickupItemById(id);
+        //TODO: if playerid or item id doesn't exist return null
+        return _playerRepository.PickupItemById(playerid, id);
 
     }
     
-    public Item? EquipItemById(int id){
+    public Item? EquipItemById(int playerid, int id){
         if (id == null) return null;
-        return _playerRepository.EquipItemById(id);
+        return _playerRepository.EquipItemById(playerid, id);
 
+    }
+
+    public string? AttackEnemyById(int playerid, int id){
+        return _playerRepository.AttackEnemyById(playerid, id);
     }
 }

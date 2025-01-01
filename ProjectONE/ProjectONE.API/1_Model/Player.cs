@@ -7,6 +7,6 @@ public class Player
     //public string Password { get; set; }
    // public int EquippedItem { get; set; }
     public List<int> Items { get; set; } = [];
-    public int Room { get; set; }
-    public int Health { get; set; }
+    public required int Room { get; set; }
+    public int? Health { get; set; }
 }

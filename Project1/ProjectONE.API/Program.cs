@@ -1,19 +1,25 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using ProjectONE.API.Data;
+using ProjectONE.API.Model;
+using ProjectONE.API.Repository;
+using ProjectONE.API.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 //Add dbcontext and connect it to connection string
-builder.Services.AddDbContext<ProjectONEContext>(options => 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectONEdb")));
+builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectONEdb")));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Dependency Inject the proper services
-builder.Services.AddScoped<IPetService, PlayerService>();
-builder.Services.AddScoped<IOwnerService, ItemService>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
+
 
 //Dependency Inject the proper repositories
-builder.Services.AddScoped<IPetRepository, PlayerRepository>();
-builder.Services.AddScoped<IOwnerRepository, ItemRepository>();
+builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
+
 
 //Add automapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));

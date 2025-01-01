@@ -22,30 +22,51 @@ public class PlayerController : ControllerBase
         return Ok(_playerService.GetAllPlayers());
     }
     
+    [HttpDelete("reset")]
+    public IActionResult ResetEverything()
+    {
+        var item = _playerService.ResetEverything();
+        return Ok(item);
+    }
     
     // this should list all items (not enemies) in the player's current room
-    [HttpGet(template:"roomitems/")]
-    public IActionResult LookAtItems()
+    [HttpGet(template:"lookaround/{playerid}")]
+    public IActionResult LookAtItems(int playerid)
     {
-        return Ok(_playerService.LookAtItems());
+        return Ok(_playerService.LookAtItems(playerid));
+    }
+
+    [HttpGet(template: "playeritems/{playerid}")]
+    public IActionResult LookAtInventory(int playerid)
+    {
+        return Ok(_playerService.LookAtInventory(playerid));
     }
     
     //puts item in inventory
-    [HttpPost("pickup/{id}")]
-    public IActionResult PickupItemByID(int id)
+    [HttpPost("pickup/{playerid}/{id}")]
+    public IActionResult PickupItemByID(int playerid, int id)
     {
-        var item = _playerService.PickupItemById(id);
+        var item = _playerService.PickupItemById(playerid, id);
         return Ok(item);
     }
     
     
     // equips item
-    [HttpPost("equip/{id}")]
-    public IActionResult EquipItembyId(int id)
+    [HttpPost("equip/{playerid}/{id}")]
+    public IActionResult EquipItembyId(int playerid, int id)
     {
-        var item = _playerService.EquipItemById(id);
+        var item = _playerService.EquipItemById(playerid, id);
         // puts item in inventory
         return Ok(item);
     }
+
+    [HttpPost("attack/{playerid}/{id}")]
+    public IActionResult AttackEnemyById(int playerid, int id)
+    {
+        var item = _playerService.AttackEnemyById(playerid, id);
+        // puts item in inventory
+        return Ok(item);
+    }
+    
     
 }

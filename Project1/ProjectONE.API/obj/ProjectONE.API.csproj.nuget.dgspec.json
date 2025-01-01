@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {}
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {}
   },
   "projects": {
-    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj": {
+    "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectUniqueName": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "projectName": "ProjectONE.API",
-        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/ProjectONE.API.csproj",
+        "projectPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/ProjectONE.API.csproj",
         "packagesPath": "/Users/judehoekstra/.nuget/packages/",
-        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.API/obj/",
+        "outputPath": "/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/Project1/ProjectONE.API/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -37,13 +37,17 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -63,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -84,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/judehoekstra/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

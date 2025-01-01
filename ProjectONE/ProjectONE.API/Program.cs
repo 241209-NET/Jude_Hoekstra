@@ -7,8 +7,7 @@ using ProjectONE.API.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 //Add dbcontext and connect it to connection string
-builder.Services.AddDbContext<DataContext>(options => 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectONEdb")));
+builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectONEdb")));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

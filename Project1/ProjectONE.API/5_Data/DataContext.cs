@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectONE._1_Model;
+using ProjectONE.API.Model;
 
 namespace ProjectONE.API.Data;
 
@@ -11,6 +11,5 @@ public partial class DataContext : DbContext
     public virtual DbSet<Item> Items { get; set; }
     public virtual DbSet<Enemy> Enemies { get; set; }
     public virtual DbSet<Player> Players { get; set; }
-    public virtual DbSet<Room> Rooms { get; set; }
 
 }

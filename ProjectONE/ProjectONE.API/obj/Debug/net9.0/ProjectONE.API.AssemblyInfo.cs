@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectONE.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b34ecce2d19157fe000aaa48bc22e3b6bd0e3830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+377402a87dcbd5d29d6259b02f34413fd7cf9521")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectONE.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectONE.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
