@@ -1,0 +1,60 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2c6dd897_002Dcc99_002D48d0_002Dac78_002D9a08a06dc9b4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ProjectONETests.cs #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;8AC09AEB-50AD-4103-8E13-315D0F9DFD2C/f:ProjectONETests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2df70595_002D607e_002D473e_002Dae91_002D917029e948cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ProjectONE.TEST&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST" Presentation="&amp;lt;ProjectONE.TEST&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=425f3f29_002D5ca4_002D402f_002Da8db_002Daf718dda8466/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ProjectONE.TEST&amp;gt; #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST" Presentation="&amp;lt;ProjectONE.TEST&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=54e6a4ca_002Dd7fe_002D464f_002D9a67_002D1f6d0336ed87/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5bb65fcb_002D8f31_002D4da6_002Dab46_002D382335e17e7f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ProjectONE.TEST&amp;gt; #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST" Presentation="&amp;lt;ProjectONE.TEST&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=62cc3f1e_002Dc9d0_002D4811_002D9006_002Db45f8672aee7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7282bfce_002D9149_002D4650_002Da921_002Dec72a2df46ae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ProjectONETests.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;8AC09AEB-50AD-4103-8E13-315D0F9DFD2C/f:ProjectONETests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78600e40_002D4cb4_002D4792_002Db69a_002D78e861f0738a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf1ed933_002De606_002D4752_002Dbcfe_002Dedfd9f6a0fbf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3269c2f_002De9ff_002D43fa_002Dbe76_002D80d71db91313/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c9b0bbae_002D2a55_002D46b2_002D8dee_002Dde08ba051d89/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ProjectONETests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;8AC09AEB-50AD-4103-8E13-315D0F9DFD2C/f:ProjectONETests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cb35de2c_002Dc5f1_002D4170_002D8cf9_002De9f080713080/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ProjectONE.TEST&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST" Presentation="&amp;lt;ProjectONE.TEST&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d5ec3d9d_002D5189_002D401c_002Dad03_002D5486b5c1cf1d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ProjectONE.TEST&amp;gt; #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/judehoekstra/RiderProjects/Jude_Hoekstra2/ProjectONE/ProjectONE.TEST" Presentation="&amp;lt;ProjectONE.TEST&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dd87280e_002D165b_002D41e8_002Db072_002Dd7ee205f0aed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f26f9b68_002Dc222_002D4153_002D8c4f_002Debcdcc1079a7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LookAtItemsTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::8AC09AEB-50AD-4103-8E13-315D0F9DFD2C::net9.0::ProjectONE.TEST.UnitTest1.LookAtItemsTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
